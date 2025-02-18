@@ -16,7 +16,7 @@ Ta upload lên trên drive cùng với việc sẽ đặt tên cho các đoạn 
 Sau khi remane và up lên drive ta sẽ chạy đoạn code capture_resize.ipynb để có thể capture các frame ảnh cũng như đưa ảnh về 1 kích cỡ nhất định.
 #####  Chú ý phải chỉnh sửa các đường dẫn đến đúng file.
 #### Bước 2: ta cần phải chia dữ liệu ra thành các file đúng với loại ảnh mà ta đã quy định vì bài toán dựa trên việc sẽ sử dụng bài toán classification 
-Khi đã xong giai đoạn cắt ảnh cùng với resize ta sẽ sử dụngIGHT INDOOR
+Khi đã xong giai đoạn cắt ảnh cùng với resize ta sẽ sử dụng FLIGHT INDOOR
 ## Pha thu thập dữ liệu và Huấn luyện mô hình
 Pha thu thập dữ liệu sẽ được miêu tả chi tiết trong file word Chuẩn bị dữ liệu và huấn luyện mô hình tránh vật cản.docx.
 Quy trình thu thập dữ liệu được chia thành 3 giai đoạn
