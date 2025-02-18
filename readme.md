@@ -46,5 +46,21 @@ Ta tải bản chipmunk 2021.2.1.14 để có thể phù hợp với app đã đ
 ![image](https://github.com/user-attachments/assets/a92cce30-cc84-4617-987c-5d2f7b1c6a75)
 ## Pha thu thập dữ liệu bay
 #### Chuẩn bị
-Ta cần chuẩn bị các loại linh kiện là MPU6050, ESP32WROOMKIT, pin lithium 5,1V, dây nối. Sau đó ta kết nối MPU với ESP32 theo như hình sau
+Ta cần chuẩn bị các loại linh kiện là MPU6050, ESP32WROOMKIT, pin lithium 5,1V, dây nối.
+Tiếp theo ta sẽ nạp chức năng để ESP có thể phát được wifi bằng file code freeRtosaccesspoint1 sau khi đã chạy xong và esp32 phát được wifi thì ta sẽ thấy được wifi ESP ở thanh tìm kiếm Wifi với
+tên : ASE_IMU
+matkhau : 12345678
+Sau đó ta kết nối MPU với ESP32 theo như hình sau:
+![image](https://github.com/user-attachments/assets/e1fea188-2e1e-4a28-b2bd-8633e86e3f60)
+sau khi đã kết nối xong ta dùng 1 máy tính xác tay bắt mạng của esp32 rồi chạy đoạn code python receive_access_point.py 
+kết quả thu được sẽ là 1 file dữ liệu gồm 6 trường dữ liệu là Acce(x,y,z) và Gyro(x,y,z).
+## Pha xử lý dữ liệu bay
+Sau khi đã thu được dữ liệu bay ta sẽ cần vẽ được bản đồ quỹ đạo bằng code của repo sau https://github.com/daehwa/Gait-Tracking-With-x-IMU-Python
+## Pha kiểm thử
+Đầu tiên ta sẽ bay DJI ở độ cao 1m8 sau đó ta sẽ bắt đầu turn on nút flight cùng virtual trên màn hình giao diện của app DJI_TEST_NEW
+Và ghi lại số đo cũng như là độ trôi của các lần tự động bay
+Hình ảnh minh họa về app:
+![image](https://github.com/user-attachments/assets/71c31290-8bff-4bbe-ab67-201b0e5cdfcb)
+
+
 
