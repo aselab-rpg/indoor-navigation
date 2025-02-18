@@ -39,4 +39,12 @@ Ta sử dụng file code divide_data.ipynb
 #### Bước 3: ta sẽ huấn luyện mô hình với dữ liệu đã thu thập được
 Ta sẽ sử dụng file code sau TrainModel.ipynb.
 ##### Chú ý ta cần phải sửa đúng các đường link đến các folder trong file code cùng file drive để có thể huấn luyện được mô hình.
+## Pha sử dụng app
+####  ta sẽ sử dụng android studio để có thể tạo app
+Ta tải bản chipmunk 2021.2.1.14 để có thể phù hợp với app đã được làm sẵn sau đó sẽ dùng đoạn code sau để có thể hiểu rõ hơn về các vận hành từ file zip Test_App_DJI.zip
+#### sau khi đã tải được android studio cùng code ta sẽ bắt đầu tải mô hình đã được train trên colab và sau đó truy cập vào thư mục assets và thêm file model vào như hình sau:
+![image](https://github.com/user-attachments/assets/a92cce30-cc84-4617-987c-5d2f7b1c6a75)
+## Pha thu thập dữ liệu bay
+#### Chuẩn bị
+Ta cần chuẩn bị các loại linh kiện là MPU6050, ESP32WROOMKIT, pin lithium 5,1V, dây nối. Sau đó ta kết nối MPU với ESP32 theo như hình sau
 
